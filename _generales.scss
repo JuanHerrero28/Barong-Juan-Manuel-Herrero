@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Lexend Giga', sans-serif;
+    min-height: 100vh;
+    background-image: url(/media/fondo.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+}
+
+
+
+
+.parrafo {
+    letter-spacing: 11px;
+    font-size: 10px;
+}

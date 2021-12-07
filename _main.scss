@@ -1,0 +1,99 @@
+main {
+    margin-bottom: 110px;
+}
+.contenedorSexo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.contenedorAmbos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.tarjeta {
+    width: 500px;
+    height: 600px;
+    box-shadow: rgb(78, 74, 69);
+    transition: all 0.3s;
+    background-color: rgba(145, 146, 146, 0.863);
+}
+
+.tarjetaSexo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+.contenedorAmbos > img {
+    width: 30px;
+    height: 30px;
+}
+.tarjeta:hover {
+    transition: all 0.3s;
+    transform: scale(1.05);
+
+}
+
+
+.tarjeta > p {
+    font-size: 12px;
+    padding: 0px 20px;
+}
+
+.tarjetaSexo > a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.tarjeta h3 {
+    padding: 0% 20px;
+
+}
+
+.tarjeta .button1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 10px;
+  font-family: 'Lexend Giga', sans-serif;
+  color: rgb(231, 231, 231);
+}
+
+.button1 {
+    background-color: rgb(0, 0, 0);
+    padding: 6px;
+    width: 30%;
+    transition: 0.5s;
+    border-radius: 50px;
+    margin-left: 35%;
+    margin-block-end: 90px;
+
+}
+.button1:hover {
+    background-color: rgb(80, 83, 85);
+    cursor: pointer;
+
+}
+
+.form-container {
+    background: rgba(145, 146, 146, 0.863);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-block-end: 100px;    
+}
+
+
+
+

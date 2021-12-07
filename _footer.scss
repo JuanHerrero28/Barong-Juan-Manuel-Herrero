@@ -1,0 +1,56 @@
+footer {
+    background-image: radial-gradient(circle, #151516 0%, #060914 100%);
+    height: auto;
+    padding-top: 10px;
+    color: honeydew;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h4 {
+    font-size: 30px;
+    font-weight: 400px;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: honeydew;
+    font-family: 'Yellowtail', cursive;
+}
+
+.footer-content p {
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 12px;
+    color: honeydew;
+}
+.footer-content h5 {
+    color: honeydew;
+    font-family: 'Lexend Giga', sans-serif;
+    letter-spacing: 14px;
+    font-size: 8px;
+}
+.redSocial {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+.redSocial li {
+    margin: 10px;
+
+}
+.redSocial a {
+    text-decoration: none;
+    color: honeydew;
+}
+.redSocial a i {
+    font-size: 20px;
+}

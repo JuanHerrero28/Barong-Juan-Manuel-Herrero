@@ -1,0 +1,53 @@
+.seccionMujer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 400px;
+    padding: 20px;
+    grid-gap:20px;
+}
+
+.mujer__item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.mujer__item::before {
+    content: "Camisa";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(150, 245, 245, 0.863);
+    transform: scaleY(0);
+    transition: transform .4s;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 12px;
+
+}
+
+.mujer__item:hover::before {
+    transform: scaleY(1);
+}
+
+.mujer__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 300ms;
+    border-radius: 12px;
+}
+
+
+.mujer__title {
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-size: 15px;
+
+}

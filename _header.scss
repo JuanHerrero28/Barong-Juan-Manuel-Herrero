@@ -1,0 +1,29 @@
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px grey;
+    display: block;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.experience {
+    font-size: 23px;
+}
+
+.carousel-item.active .experience {
+    animation: fadeInLeft 0.8s ease forwards;
+}
+
+.carousel-item.active .parrafo {
+    animation: fadeInRight 0.8s ease forwards;
+}
+
+
+
+
